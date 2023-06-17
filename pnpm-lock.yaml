@@ -29,9 +29,6 @@ dependencies:
   '@nestjs/platform-express':
     specifier: ^9.0.0
     version: 9.4.2(@nestjs/common@9.4.2)(@nestjs/core@9.4.2)
-  '@types/joi':
-    specifier: ^17.2.3
-    version: 17.2.3
   bcryptjs:
     specifier: ^2.4.3
     version: 2.4.3
@@ -1324,13 +1321,6 @@ packages:
       expect: 29.5.0
       pretty-format: 29.5.0
     dev: true
-
-  /@types/joi@17.2.3:
-    resolution: {integrity: sha512-dGjs/lhrWOa+eO0HwgxCSnDm5eMGCsXuvLglMghJq32F6q5LyyNuXb41DHzrg501CKNOSSAHmfB7FDGeUnDmzw==}
-    deprecated: This is a stub types definition. joi provides its own type definitions, so you do not need this installed.
-    dependencies:
-      joi: 17.9.2
-    dev: false
 
   /@types/json-schema@7.0.12:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
